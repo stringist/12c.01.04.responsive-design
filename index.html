@@ -32,7 +32,6 @@
                 Non utriuque solatium amet netus nobis cum metus securus fecerunt oppressus eu oportunitatis error est quae interpretes corporis - v tot ullo s Verius.
             </p>
             <button type="button">Request Demo &#x2794;</button>
-
         </div>
         <!-- Add image-->
         <div class="header_graphics"></div>
@@ -46,9 +45,7 @@
                 <div class="advantages_card_graphics"></div>
                 <div class="advantages_card_text">
                     <h3>Legere hendrerit vectigal poenam</h3>
-                    <p>
-                        Msibilem magna id eros nemo bcatissimae natoque ac adiurando facer praesidio sed reiponde recenti.
-                    </p>
+                    <p>Msibilem magna id eros nemo bcatissimae natoque ac adiurando facer praesidio sed reiponde recenti.</p>
                 </div>
             </article>
             <article class="advantages_card">
@@ -96,34 +93,31 @@
     <section id="product">
         <h2>Per te usus sint Quas</h2>
         <!-- Two columns: graphics to the left, text to the right -->
-
-        <!-- Add image-->
-        <div class="product_graphics"></div>
-        <div class="product_text">
-            <article>
-                <h3>1. Nisi Unde fuga mus fuga</h3>
-                <p>
-                    Risus ab ducimus quo v terrenos acerba si odit quam justo nunc ullo Modo.
-                </p>
-            </article>
-            <article>
-                <h3>2. Clades mus orci</h3>
-                <p>
-                    Diam esse eaque plebeiorum mus urna imbibere conubia cras victoris iusto populo.
-                </p>
-            </article>
-            <article>
-                <h3>3. Terrenos mus eventum</h3>
-                <p>
-                    Vero poenis sunt id proin dui hac purus ipsa id qui sed te octavas regnante regnet nisi'e putatur qui eos.
-                </p>
-            </article>
-            <article>
-                <h3>4. Ridiculus nec proin</h3>
-                <p>
-                    Nemo curiosus senatus ille decipitur est iure ipsa dis sed nam quod segete eum eius usus dis donec amet.
-                </p>
-            </article>
+        <div class="product_container">
+            <!-- Add image-->
+            <div class="product_graphics"></div>
+            <div class="product_text">
+                <article>
+                    <h3>1. Nisi Unde fuga mus fuga</h3>
+                    <p>Risus ab ducimus quo v terrenos acerba si odit quam justo nunc ullo Modo.</p>
+                </article>
+                <article>
+                    <h3>2. Clades mus orci</h3>
+                    <p>Diam esse eaque plebeiorum mus urna imbibere conubia cras victoris iusto populo.</p>
+                </article>
+                <article>
+                    <h3>3. Terrenos mus eventum</h3>
+                    <p>
+                        Vero poenis sunt id proin dui hac purus ipsa id qui sed te octavas regnante regnet nisi'e putatur qui eos.
+                    </p>
+                </article>
+                <article>
+                    <h3>4. Ridiculus nec proin</h3>
+                    <p>
+                        Nemo curiosus senatus ille decipitur est iure ipsa dis sed nam quod segete eum eius usus dis donec amet.
+                    </p>
+                </article>
+            </div>
         </div>
     </section>
     <section class="highlight">
@@ -179,28 +173,26 @@
     </section>
     <section id="contact">
         <h2>Iudicia quod fames?</h2>
-        <p>
-            Vel w tibi progressionem exequi tincidunt ullo Modo'd orator depauperatio sapiente convallis.
-        </p>
+        <p>Vel w tibi progressionem exequi tincidunt ullo Modo'd orator depauperatio sapiente convallis.</p>
         <!-- Contact form section layout -->
         <form id="contact_form">
             <!-- Two column layout, name and email a column each, message two columns. Labels should be over input-->
-            <div class="form_group">
+            <div class="form_group" id="name_group">
                 <label for="name">Full name</label>
                 <input type="text" id="name" name="Name" required />
             </div>
 
-            <div class="form_group">
+            <div class="form_group" id="email_group">
                 <label for="email">Email address</label>
                 <input type="email" id="email" name="Email" required />
             </div>
 
-            <div class="form_group">
+            <div class="form_group" id="message_area">
                 <label for="message">Message</label>
                 <textarea id="message" name="Message" required></textarea>
             </div>
 
-            <div class="form_group">
+            <div class="form_group" id="submit_button">
                 <button type="submit">Send Message</button>
             </div>
         </form>
