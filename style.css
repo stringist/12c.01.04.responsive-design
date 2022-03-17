@@ -123,6 +123,12 @@ a {
     color: inherit;
 }
 
+a:hover {
+    transform: scale(102%);
+    filter: brightness(150%);
+    transition: all .3s;
+}
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -130,6 +136,17 @@ header {
     margin-bottom: 2rem;
     border-top: solid .5px aquamarine;
     padding: 6rem 2rem 6rem 2rem;
+}
+
+.logo {
+    font-family: var(--display);
+    color: var(--darker);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a.logo {
+    font-size: 1.2rem;
 }
 
 .header_text {
@@ -201,6 +218,10 @@ footer ul {
     display: flex;
     flex-direction: column;
     gap: .5rem;
+}
+
+footer ul li {
+    text-decoration: underline;
 }
 
 .advantages_cards {
@@ -329,6 +350,8 @@ footer ul {
 .team_text a {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    font-weight: 500;
+    color: var(--darker);
 }
 
 .team_graphics {
@@ -398,6 +421,9 @@ textarea {
 }
 
 @media screen and (max-width: 700px) {
+    nav ul {
+        display: none;
+    }
     section {
         padding: 1rem;
     }
@@ -414,5 +440,19 @@ textarea {
     }
     footer section {
         gap: auto;
+    }
+    #contact_form {
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    footer section {
+        padding: 0;
+        flex-direction: column;
+        margin-top: 2rem;
     }
 }
