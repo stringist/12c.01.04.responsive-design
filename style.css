@@ -253,6 +253,11 @@ footer ul li {
     margin-bottom: 4rem;
 }
 
+.advantages_card_text h3 {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+}
+
 .advantages_card_graphics {
     width: 100%;
     max-height: 300px;
