@@ -140,7 +140,7 @@ header {
 
 .logo {
     font-family: var(--display);
-    color: var(--darker);
+    color: rgb(17, 210, 145);
     text-decoration: none;
     font-weight: 700;
 }
@@ -256,6 +256,7 @@ footer ul li {
 .advantages_card_text h3 {
     font-size: 1.3rem;
     line-height: 1.3rem;
+    margin-bottom: 1.5rem;
 }
 
 .advantages_card_graphics {
